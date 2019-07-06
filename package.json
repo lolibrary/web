@@ -1,32 +1,14 @@
 {
-  "name": "@lolibrary/web",
-  "version": "1.0.0",
-  "description": "Lolibrary's frontend repository",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lolibrary/web.git"
-  },
-  "keywords": [
-    "lolibrary",
-    "fashion",
-    "next.js",
-    "frontend"
-  ],
-  "author": "Lolibrary <engineering@lolibrary.org>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lolibrary/web/issues"
-  },
-  "homepage": "https://github.com/lolibrary/web#readme",
-  "dependencies": {
-    "@uppy/core": "^1.1.0",
-    "@uppy/dashboard": "^1.1.0",
-    "next": "^8.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  }
+    "name": "@lolibrary/web",
+    "private": true,
+    "version": "1.0.0",
+    "licence": "ISC",
+    "workspaces": [
+        "web.*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lolibrary/web"
+    },
+    "dependencies": {}
 }

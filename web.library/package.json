@@ -1,0 +1,18 @@
+{
+  "name": "@lolibrary/library",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@uppy/core": "^1.1.0",
+    "@uppy/dashboard": "^1.1.0",
+    "@uppy/react": "^1.1.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

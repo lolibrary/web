@@ -1,0 +1,7 @@
+{
+  "name": "@lolibrary/uppy-companion",
+  "version": "1.0.0",
+  "description": "Uppy Companion App for direct S3 uploads",
+  "main": "index.js",
+  "license": "ISC"
+}
